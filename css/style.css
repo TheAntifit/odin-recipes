@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color:rgb(31, 31, 31);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(1, 41, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
