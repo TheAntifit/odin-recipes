@@ -2,7 +2,7 @@ body {
     background-color: rgb(255, 255, 255);
     color:rgb(31, 31, 31);
     font-size: 14px;
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,4 +10,10 @@ h1 {
     color: rgb(1, 41, 1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+}
+
+h3 {
+    font-size: 21px;
+    color:rgb(44, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
