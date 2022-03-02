@@ -2,23 +2,20 @@ body {
     background-color: rgb(255, 255, 255);
     color:rgb(31, 31, 31);
     font-size: 14px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 800px;
 }
+
+/* still have to learn how to align text in the center vertically */
 
 h1 {
     font-size: 30px;
     color: rgb(1, 41, 1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
 }
 
 p {
     color: #032709;
-}
-
-li {
-    font-variant: small-caps;
 }
 
 h3 {
@@ -31,14 +28,55 @@ div {
     width: 800px;
 }
 
+/* Properties of the first paragraph of the description */
 .first-paragraph {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: justify;
 }
 
+/* Properties of the first paragraph of the description */
 .second-paragraph {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
+/* properties of all the highlighted areas in the page */
 .highlight {
     font-style: oblique;
+    font-weight: bold;
 }
+
+/* Properties of the ingredients section of the recipe */
+.ingredients {
+    width: 800px;
+    background-color: rgb(240, 238, 238);
+    border: 0.05px solid rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 40px;
+    border-left: 5px solid gray;
+    font-variant: small-caps;
+}
+
+/* Properties of the method section of the recipe */
+.method {
+    width: 800px;
+    background-color: rgb(240, 238, 238);
+    border: 0.05px solid rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 40px;
+    border-left: 5px solid gray;
+} 
+
+/* Properties of the sign-off line */
+.sign-off {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-style: oblique;
+    font-weight: bold;
+}
+
