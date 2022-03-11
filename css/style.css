@@ -94,3 +94,27 @@ div {
     font-weight: bold;
 }
 
+/*properties of the footer, which uses links and link styling*/
+.footer {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 75%;
+}
+
+/* Properties of the links */
+a {
+    color: rgb(0, 82, 16);
+    text-decoration: none;
+}
+
+a:visited {
+   color: lightgrey
+}
+
+a:hover, a:focus {
+    color: coral;
+}
+
+a:active {
+    color: lightgrey;
+}
